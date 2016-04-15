@@ -126,7 +126,7 @@ footer h3 {
 
 
 /*///////////////
-MAIN SECTION STYLING (product page)
+MAIN SECTION STYLING (all pages)
 ///////////////*/
 
 .mainSection {
@@ -137,14 +137,56 @@ MAIN SECTION STYLING (product page)
   background: rgba(247,113,125, .3);
 }
 
+.mainSection h3 {
+  background: 16001E;
+  color: #F7B2B7;
+  font-size: ;
+}
+
+.mainSection .columnLeft {
+  float: left;
+  width: 49%;
+  margin: 0 auto;
+}
+
+.mainSection .columnRight {
+  float: left;
+  width: 49%;
+  margin: 0 1% 5px 0 ;
+}
+
+/*///////////////
+MAIN SECTION STYLING (testimonials page)
+///////////////*/
+
+.testimonials {
+  margin: 30px 0;
+  padding: 0;
+}
+.testimonials li {
+  margin: 10px 5px;
+  height: 360px;
+  padding: 20px;
+  border: 3px solid #F7717D;
+}
+
+.testimonials li h5 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
+}
+
+.testimonials img {
+  float: left;
+  border: 2px solid #16001E;
+  margin-right: 18px;
+  margin-bottom: 6px;
+}
+
+.testimonials li p {
+  text-align: justify;
+}
+
 /*///////////////
 CARD STYLING (product page)
 ///////////////*/
-
-.card {
-  margin: 8px auto;
-  padding: 15px;
-  border: 3px solid #F7717D;
-  float: left;
-  width: 45%;
-}
