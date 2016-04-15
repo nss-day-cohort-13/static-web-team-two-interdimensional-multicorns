@@ -2,7 +2,7 @@ var loopArray = [
 
 {img:"resized/derpcorn.jpg",
  name: "Derpy Corn",
- description: "The derpiest of the Corns (and the cutest!)",
+ description: "The derpiest of the Corns, and the cutest!",
  price: "1 billion dollars"
 },
 
@@ -44,7 +44,7 @@ var loopArray = [
 
 {img:"resized/zomcorn.jpg",
  name: "Zombie Corn",
- description: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn eatin' errybody",
+ description: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn be eatin' errybody",
  price: "$0 Adopt at own risk!"
 }
 ];
