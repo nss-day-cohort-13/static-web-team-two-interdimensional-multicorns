@@ -19,15 +19,16 @@ a {
 ul li {
   list-style-type: none;
 }
+
 /*////////////////
 BODY STYLING (all pages)
 ////////////////*/
 
 body {
-  height: 100%; 
+  min-height: 100%; 
   margin: 0%;/*this makes the footer stick at the bottom*/
   
-  /*starting font information*/
+  /*body starting font information*/
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   letter-spacing: .08em;
@@ -41,21 +42,42 @@ body {
 }
 
 /*///////////////
+Top area STYLING (all pages)
+///////////////*/
+
+
+#top {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background: rgba(255, 255, 255, .3);
+  border-bottom: 2px solid #F7717D;
+}
+
+/*///////////////
 NAVBAR STYLING (all pages)
 ///////////////*/
 
 ul#navLinks {
   margin: 8px 0;
   padding-left: 0;
+  background: white;
+  border-bottom: 2px solid #F7717D;
 }
 
 #navBar ul li {
   display: inline-block;
+  margin: 0 15px;
 }
+
+#navBar ul li not(last) {
+  border-right: 2px solid #F7717D;
+}
+
 #navBar ul li a {
     color: #16001E;
     font-size: .92em;
-    margin-left: 10px;
+    
 }
 
 
@@ -80,6 +102,10 @@ BANNER STYLING (all pages)
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
+  margin: 15px;
+  padding: 20px 15px;
+  border-bottom: 2px solid #F7717D;
+  border-radius: 18%;
 }
 
 /*///////////////
@@ -94,8 +120,9 @@ footer {
     height: 28px;
     width: 100%;
     /*footer background- a simple transparent overlay*/
-    background-color: linear-gradient(to top rgba(247, 178, 183, 0.3) 0%, transparent 80%);    
+    background-image: linear-gradient(to top rgba(247, 178, 183, 0.3) 0%, transparent 80%);    
 }
+
     /*footer font*/
 footer h3 {
     font-size: .7em;
