@@ -6,8 +6,6 @@ Color Scheme:
 #7F2982 lavender, 
 #16001E deep purple 
 ////////////////*/
-
-
 * {
   box-sizing: border-box;
 }
@@ -23,20 +21,17 @@ ul li {
 /*////////////////
 BODY STYLING (all pages)
 ////////////////*/
-
 body {
-  min-height: 100%; 
-  margin: 0%;/*this makes the footer stick at the bottom*/
-  
-  /*body starting font information*/
-  font-family: "Open Sans", sans-serif;
+  min-height: 100%;
+  margin: 0;
+/*this makes the footer stick at the bottom*/
+/*body starting font information*/
+  font-family: "Open Sans",sans-serif;
   font-size: 1em;
   letter-spacing: .08em;
   color: #16001E;
-  /*background gradient going behind the entire page*/
-  background-image: 
-    radial-gradient(circle farthest-corner at 65% 190px, #DE639A -15%, #F7717D 28%, #7F2982 74%);
-  background-size: 
+/*background gradient going behind the entire page*/
+  background-image: radial-gradient(circle farthest-corner at 65% 190px,#DE639A -15%,#F7717D 28%,#7F2982 74%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -44,24 +39,20 @@ body {
 /*///////////////
 Top area STYLING (all pages)
 ///////////////*/
-
-
 #top {
-  display: flex;
   height: 300px;
   width: 100%;
-  background: rgba(255, 255, 255, .3);
+  background: rgba(255,255,255,.3);
   border-bottom: 2px solid #F7717D;
 }
 
 /*///////////////
 NAVBAR STYLING (all pages)
 ///////////////*/
-
-ul#navLinks {
+#navLinks {
   margin: 8px 0;
   padding-left: 0;
-  background: white;
+  background: #fff;
   border-bottom: 2px solid #F7717D;
 }
 
@@ -70,38 +61,23 @@ ul#navLinks {
   margin: 0 15px;
 }
 
-#navBar ul li not(last) {
+#navBar ul li {
   border-right: 2px solid #F7717D;
 }
 
 #navBar ul li a {
-    color: #16001E;
-    font-size: .92em;
-    
+  color: #16001E;
+  font-size: .92em;
 }
-
 
 /*///////////////
 BANNER STYLING (all pages)
 ///////////////*/
-
-
 #banner {
-  color: white;
+  color: #fff;
   font-size: 1.4em;
   text-align: center;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+  text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
   margin: 15px;
   padding: 20px 15px;
   border-bottom: 2px solid #F7717D;
@@ -111,24 +87,22 @@ BANNER STYLING (all pages)
 /*///////////////
 FOOTER STYLING (all pages)
 ///////////////*/
-
 footer {
-  /*footer position,  at the very bottom of any page that renders even if the content doesn't reach all the way to the bottom. will "display hidden" in mobile version later*/
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 28px;
-    width: 100%;
-    /*footer background- a simple transparent overlay*/
-    background-image: linear-gradient(to top rgba(247, 178, 183, 0.3) 0%, transparent 80%);    
+/*footer position,  at the very bottom of any page that renders even if the content doesn't reach all the way to the bottom. will "display hidden" in mobile version later*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 28px;
+  width: 100%;
+/*footer background- a simple transparent overlay*/
+  background-image: linear-gradient(to top rgba(247,178,183,0.3) 0%,transparent 80%);
 }
 
-    /*footer font*/
+/*footer font*/
 footer h3 {
-    font-size: .7em;
-    font-weight: normal;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    
+  font-size: .7em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
 }
