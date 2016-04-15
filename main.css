@@ -53,10 +53,9 @@ NAVBAR STYLING (all pages)
 
 nav {
   width: 100%;
-  background-image: linear-gradient(transparent, rgba(127,41,130,0.8), transparent);
+  background-image: linear-gradient(#7F2982 -18%, transparent);
   /*border-bottom: 2px solid #F7717D;*/
   text-align: center;
-  position: fixed top left;
 }
 
 ul.navLinks {
@@ -76,7 +75,7 @@ ul.navLinks {
 }
 
 #navBar ul li a {
-  color: #F7B2B7;
+  color: #16001E;
   font-size: .92em;
 }
 
@@ -132,7 +131,7 @@ MAIN SECTION STYLING (product page)
 
 .mainSection {
   display: block;
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
   padding: 25px;
   background: rgba(247,113,125, .3);
