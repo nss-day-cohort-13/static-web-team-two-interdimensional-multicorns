@@ -1,0 +1,60 @@
+/*////////////////
+Color Scheme: 
+#F7B2B7 light pink, (RGB 247,178,183)
+#F7717D coral pink, 
+#DE639A mid pink, 
+#7F2982 lavender, 
+#16001E deep purple 
+////////////////*/
+
+/*this styles all borders to eat into the padding instead of margin which could be helpful later.*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*////////////////
+BODY STYLING (all pages)
+////////////////*/
+
+body {
+  height: 100%; 
+  margin: 0%;/*this makes the footer stick at the bottom*/
+  
+  /*starting font information*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  letter-spacing: .08em;
+  color: #16001E;
+  /*background gradient going behind the entire page*/
+  background-image: 
+    radial-gradient(circle farthest-corner at 65% 190px, #DE639A -15%, #F7717D 28%, #7F2982 74%);
+  background-size: 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/*///////////////
+FOOTER STYLING (all pages)
+///////////////*/
+
+footer {
+  /*footer position,  at the very bottom of any page that renders even if the content doesn't reach all the way to the bottom. will "display hidden" in mobile version later*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 28px;
+    width: 100%;
+    /*footer background- a simple transparent overlay*/
+    background-color: linear-gradient(to top rgba(247, 178, 183, 0.3) 0%, transparent 80%);    
+}
+    /*footer font*/
+footer h3 {
+    font-size: .7em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    
+}
