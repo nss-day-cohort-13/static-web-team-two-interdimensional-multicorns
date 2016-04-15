@@ -130,6 +130,7 @@ MAIN SECTION STYLING (product page)
 ///////////////*/
 
 .mainSection {
+  text-align: center;
   display: block;
   width: 94%;
   margin: 0 auto;
@@ -147,4 +148,17 @@ CARD STYLING (product page)
   border: 3px solid #F7717D;
   float: left;
   width: 45%;
+}
+
+/*///////////////
+IMAGE AND CONTENT (home page)
+///////////////*/
+
+#mainImage {
+  
+  display: inline-block;
+  padding: 15px;
+  border: 3px solid #F7717D;
+  
+
 }
