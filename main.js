@@ -15,7 +15,7 @@ var loopArray = [
 {img:"resized/inviscorn.jpg",
  name: "Invisa Corn",
  decsription: "His body may seem nonexistent, but in reality its just invisible!",
- price: ""
+ price: "$500,000"
 },
 
 {img:"resized/robocorn.jpg",
@@ -45,7 +45,7 @@ var loopArray = [
 {img:"resized/zomccorn.jpg",
  name: "Zombie Corn",
  decsription: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn eatin' errybody",
- price: ""
+ price: "$0 Adopt at own risk!"
 }
 ];
 
