@@ -1,9 +1,9 @@
-/*////////////////
+/*///////////////
 Color Scheme: 
 #F7B2B7 light pink, (RGB 247,178,183)
-#F7717D coral pink, 
+#F7717D coral pink, (RGB 247,113,125)
 #DE639A mid pink, 
-#7F2982 lavender, 
+#7F2982 lavender, (RGB 127,41,130)
 #16001E deep purple 
 ////////////////*/
 * {
@@ -42,27 +42,36 @@ Top area STYLING (all pages)
 #top {
   height: 300px;
   width: 100%;
-  background: rgba(255,255,255,.3);
-  border-bottom: 2px solid #F7717D;
+  background: rgba(255,255,255,.14);
+  border-bottom: 3px solid #F7717D;
+  margin-bottom: 8px;
 }
 
 /*///////////////
 NAVBAR STYLING (all pages)
 ///////////////*/
-#navLinks {
-  margin: 8px 0;
-  padding-left: 0;
-  background: #fff;
-  border-bottom: 2px solid #F7717D;
+
+nav {
+  width: 100%;
+  background-image: linear-gradient(#7F2982 -18%, transparent);
+  /*border-bottom: 2px solid #F7717D;*/
+  text-align: center;
 }
 
+ul.navLinks {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 6px 0;
+  
+} 
+/*v2 put a second div with the same content into the html and hide it so it can show the background through and not the content?*/
 #navBar ul li {
   display: inline-block;
-  margin: 0 15px;
-}
-
-#navBar ul li {
-  border-right: 2px solid #F7717D;
+  margin: 0 -4px;
+  padding: 0 8px;
+  border-left: 3px solid #F7717D;
+  border-right: 3px solid #F7717D;
+  border-radius: 11px;
 }
 
 #navBar ul li a {
@@ -80,8 +89,13 @@ BANNER STYLING (all pages)
   text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
   margin: 15px;
   padding: 20px 15px;
-  border-bottom: 2px solid #F7717D;
-  border-radius: 18%;
+}
+
+#banner h5 {
+  color: #F7B2B7;
+  font-size: 1em;
+  text-align: center;
+  margin: 0 15px 0;
 }
 
 /*///////////////
@@ -89,20 +103,48 @@ FOOTER STYLING (all pages)
 ///////////////*/
 footer {
 /*footer position,  at the very bottom of any page that renders even if the content doesn't reach all the way to the bottom. will "display hidden" in mobile version later*/
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   height: 28px;
   width: 100%;
-/*footer background- a simple transparent overlay*/
-  background-image: linear-gradient(to top rgba(247,178,183,0.3) 0%,transparent 80%);
+/*footer background */
+  
+  background-image: linear-gradient( transparent, #16001E 120% );
+  text-align: center;
 }
 
 /*footer font*/
 footer h3 {
+  color: #DE639A ;
   font-size: .7em;
   font-weight: 400;
   text-align: center;
   margin: 0;
   padding: 5px;
+}
+
+
+/*///////////////
+MAIN SECTION STYLING (product page)
+///////////////*/
+
+.mainSection {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  padding: 25px;
+  background: rgba(247,113,125, .3);
+}
+
+/*///////////////
+CARD STYLING (product page)
+///////////////*/
+
+.card {
+  margin: 8px auto;
+  padding: 15px;
+  border: 3px solid #F7717D;
+  float: left;
+  width: 45%;
 }
