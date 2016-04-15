@@ -1,61 +1,63 @@
 var loopArray = [
 
-{img:"derpcorn.jpg"
- name: "Derpy Corn"
- decsription: "The derpiest of the corns"
+{img:"resized/derpcorn.jpg",
+ name: "Derpy Corn",
+ decsription: "The derpiest of the Corns (and the cutest!)",
  price: "1 billion dollars"
-}
+},
 
-{img:"humancorn.jpg"
- name: "Sexy Corn"
- decsription: "The sexiest of all the corns"
+{img:"resized/humancorn.jpg",
+ name: "Sexy Corn",
+ decsription: "The sexiest of all the Corns",
  price: "Rental Only: $1000 a day"
-}
+},
 
-{img:"inviscorn.jpg"
- name: "Invisa Corn"
- decsription: "His body may seem nonexistent, but in reality its just invisible!"
+{img:"resized/inviscorn.jpg",
+ name: "Invisa Corn",
+ decsription: "His body may seem nonexistent, but in reality its just invisible!",
  price: ""
-}
+},
 
-{img:"robocorn.jpg"
- name: "Robo Corn"
- decsription: ""
+{img:"resized/robocorn.jpg",
+ name: "Robo Corn",
+ decsription: "The Corn of the future",
  price: "$1,000,000"
-}
+},
 
-{img:"siberiancorn.jpg"
- name: "Siberian Corn"
- decsription: ""
- price: ""
-}
+{img:"resized/siberiancorn.jpg",
+ name: "Siberian Corn",
+ decsription: "The realest and ugliest of the Corns",
+ price: "$100,000"
+},
 
-{img:"spacecorn.jpg"
- name: "Space Corn"
- decsription: ""
- price: ""
-}
+{img:"resized/spacecorn.jpg",
+ name: "Space Corn",
+ decsription: "Space Corn (ah ah ah) fighter of the Eath Corn (ah ah ah) Champion of the Sun",
+ price: "$2,000,000"
+},
 
-{img:"studcorn.jpg"
- name: "Stud Corn"
- decsription: ""
- price: ""
-}
+{img:"resized/studcorn.jpg",
+ name: "Stud Corn",
+ decsription: "The studliest of the Corns",
+ price: "4,000,000",
+},
 
-{img:"zomccorn.jpg"
- name: "Zombie Corn"
- decsription: ""
+{img:"resized/zomccorn.jpg",
+ name: "Zombie Corn",
+ decsription: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn eatin' errybody",
  price: ""
 }
 ];
 
-for (var i = 0; var i < loopArray.length; i++) {
-  var linkDivs = getElementByID(productDiv);
+var linkDivs = document.getElementById("productDiv");
+for (var i = 0; i < loopArray.length; i++) {
 
-  linkDivs.innerhtml += "<img src=" + loopArray.img[i] + "</img> + <p class="name">" + loopArray.name[i] +
-   "</p><p class="desc">" + loopArray.description[i] + "</p><p class="price">" + loopArray.price[i] + "</p>"
-
+  
+  linkDivs.innerHTML += "<img src='" + loopArray[i].img + "'>" + "<p class='name'>" + loopArray[i].name +
+   "</p>" + "<p class='desc'>" + loopArray[i].description + "</p>" + "<p class='price'>" + loopArray[i].price + "</p>"
+   console.log(linkDivs);
 }
+
 
 
 
