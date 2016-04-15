@@ -42,7 +42,7 @@ var loopArray = [
  price: "4,000,000",
 },
 
-{img:"resized/zomccorn.jpg",
+{img:"resized/zomcorn.jpg",
  name: "Zombie Corn",
  decsription: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn eatin' errybody",
  price: "$0 Adopt at own risk!"
