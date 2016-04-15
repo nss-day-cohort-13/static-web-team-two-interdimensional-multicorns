@@ -2,49 +2,49 @@ var loopArray = [
 
 {img:"resized/derpcorn.jpg",
  name: "Derpy Corn",
- decsription: "The derpiest of the Corns (and the cutest!)",
+ description: "The derpiest of the Corns, and the cutest!",
  price: "1 billion dollars"
 },
 
 {img:"resized/humancorn.jpg",
  name: "Sexy Corn",
- decsription: "The sexiest of all the Corns",
+ description: "The sexiest of all the Corns",
  price: "Rental Only: $1000 a day"
 },
 
 {img:"resized/inviscorn.jpg",
  name: "Invisa Corn",
- decsription: "His body may seem nonexistent, but in reality its just invisible!",
+ description: "His body may seem nonexistent, but in reality its just invisible!",
  price: "$500,000"
 },
 
 {img:"resized/robocorn.jpg",
  name: "Robo Corn",
- decsription: "The Corn of the future",
+ description: "The Corn of the future",
  price: "$1,000,000"
 },
 
 {img:"resized/siberiancorn.jpg",
  name: "Siberian Corn",
- decsription: "The realest and ugliest of the Corns",
+ description: "The realest and ugliest of the Corns",
  price: "$100,000"
 },
 
 {img:"resized/spacecorn.jpg",
  name: "Space Corn",
- decsription: "Space Corn (ah ah ah) fighter of the Eath Corn (ah ah ah) Champion of the Sun",
+ description: "Space Corn (ah ah ah) fighter of the Eath Corn (ah ah ah) Champion of the Sun",
  price: "$2,000,000"
 },
 
 {img:"resized/studcorn.jpg",
  name: "Stud Corn",
- decsription: "The studliest of the Corns",
+ description: "The studliest of the Corns",
  price: "4,000,000",
 },
 
-{img:"resized/zomccorn.jpg",
+{img:"resized/zomcorn.jpg",
  name: "Zombie Corn",
- decsription: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn eatin' errybody",
+ description: "Hide yo Baby Corns Hide yo Mama Corns Zombie Corn be eatin' errybody",
  price: "$0 Adopt at own risk!"
 }
 ];
